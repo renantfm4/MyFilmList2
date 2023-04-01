@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
+  background-color: blueviolet;
 }
 
 #root{
@@ -33,6 +34,7 @@ input, button{
   margin: 100px auto;
   padding: 30px;
   border-radius: 20%;
+  box-shadow: 10px 20px 20px rgb(7, 128, 13);
 }
 
 

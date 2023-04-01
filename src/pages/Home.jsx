@@ -38,8 +38,8 @@ function Home(){
     return (
       <div className="principal">
         <h2 className="title">Most popular films</h2>
-        <button onClick={deletar}>Excluir Conta</button>
-        <button onClick={sair}>Deslogar</button>
+        <button className="deletar" onClick={deletar}>Excluir Conta</button>
+        <button className="sair" onClick ={sair}>Deslogar</button>
         <div className="films-container">
             {topMovies && 
             topMovies.map((Movie) => <MovieCard key={Movie.id} movie={Movie} />)}</div>
