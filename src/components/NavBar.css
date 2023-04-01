@@ -1,3 +1,24 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #1E2019;
+}
+
+a{
+    text-decoration: none;
+    color: #F5D547;
+    font-size: 50px;
+}
+
+a:hover{
+    color: #F4D06F;
+}
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -8,6 +29,7 @@
 .logo{
     float: left;
     margin:20px;
+
 }
 .input{
     height: 30px;
@@ -30,3 +52,4 @@
     background-color: black;
     font-size: 40px;
 }
+

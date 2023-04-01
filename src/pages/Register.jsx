@@ -32,9 +32,9 @@ const Register = () => {
                 <div className="style2">
                     <h1>Cadastrar</h1>
                 </div>
-                <input type="text" onChange={e=> setName(e.target.value)}></input>
-                <input type="email" onChange={e=> setEmail(e.target.value)}></input>
-                <input type="password" onChange={e=> setPassword(e.target.value)}></input>
+                <input type="text" className="user" placeholder="Username" onChange={e=> setName(e.target.value)}></input>
+                <input type="email" placeholder="Email" onChange={e=> setEmail(e.target.value)}></input>
+                <input type="password" placeholder="Senha" onChange={e=> setPassword(e.target.value)}></input>
                 <button type="submit" className="salvar">Salvar</button>
                 <div className="cadastrado">
                 <button type="button" className='cadastrado' onClick={paginaInicial}>Já Cadastrado</button>

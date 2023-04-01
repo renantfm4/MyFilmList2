@@ -19,6 +19,8 @@ main{
 
 .salvar{
     cursor: pointer;
+    font-size:20px;
+    color: black;
 }
 
 
@@ -29,4 +31,9 @@ main{
   margin: 10% 29% 10%;
   cursor: pointer;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+}
+.style2 h1{
+    color: black;
+
 }

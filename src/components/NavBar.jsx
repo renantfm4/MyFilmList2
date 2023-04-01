@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { BsSearch, BsFillPersonFill} from "react-icons/bs";
-import './Navbar.css';
+import './NavBar.css';
 
 function NavBar() {
 

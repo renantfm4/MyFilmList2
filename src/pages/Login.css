@@ -56,8 +56,16 @@
 
 .entrar{
     cursor: pointer;
+    color: black;
+    font-size: 20px;
 }
 
 .cadastro{
     cursor: pointer;
+    font-size: 20px;
+    color: black;
+}
+
+.style h1{
+    color: black;
 }
