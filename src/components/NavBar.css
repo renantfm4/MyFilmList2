@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.logo{
+    float: left;
+    margin:20px;
+    background: black;
+}
+.input{
+    height: 30px;
+    width: 150px;
+    color: black;
+}
+.lupa{
+    font-size: 25px;
+    margin: 10px;
+    background-color: #1E2019;
+    color: white;
+}
+
+.Form{
+    justify-content: space-between;
+}
+
+.account{
+    margin-right: 30px;
+    background-color: black;
+    font-size: 40px;
+}

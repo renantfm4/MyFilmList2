@@ -1,0 +1,28 @@
+.film-page {
+    color: #000000;
+    display: grid;
+    flex-direction: column;
+    max-width: 650px;
+    margin: 2rem auto;
+  }
+
+.film-page div img,
+.film-page div h3,
+.film-page div p {
+    margin-bottom: 1rem;
+  }
+
+.film-page div h3{
+    font-size: 2rem;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+
+.overview p {
+    line-height: 1.4rem;
+  }
